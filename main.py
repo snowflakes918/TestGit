@@ -13,4 +13,9 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('hello world')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+# sort a list of numbers
+numbers = [5, 2, 9, 1, 5, 6]
+sorted_numbers = sorted(numbers)
+print(f'Sorted numbers: {sorted_numbers}')
+
