@@ -7,6 +7,8 @@
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+    print("This is a sample Python script.")
+    print("You can run your code from this script.")
 
 
 # Press the green button in the gutter to run the script.
@@ -22,6 +24,12 @@ def merge_sort(arr):
 
         merge_sort(L)  # Sorting the first half
         merge_sort(R)  # Sorting the second half
+
+# sort a list of numbers
+numbers = [5, 2, 9, 1, 5, 6]
+sorted_numbers = sorted(numbers)
+print(f'Sorted numbers: {sorted_numbers}')
+
 
         i = j = k = 0
 
